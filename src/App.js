@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import RandomArticle from './random-article';
 import Article from './article';
 import Rank from './rank';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import {HashRouter as Router, Switch, Route} from 'react-router-dom'
 
 import './App.css';
 
