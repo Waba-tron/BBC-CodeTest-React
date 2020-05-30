@@ -4,34 +4,37 @@ import './App.css';
 
 function RandomArticle() {
 
-  useEffect(()=>{
+  //Set up hooks for randomly generated article
+  const [articles, setArticles] = useState([]);
+  const [articleTitle, setArticlesTitle] = useState('');
+  const [articleHeading, setArticlesHeading] = useState('');
 
+  useEffect(()=>{
+    //Generate a random number
     let randomNumber = Math.floor(Math.random() * 3);
     let articleTypes = [2,3,5]
-    console.log(randomNumber);
-       
+    
+    //Make request to get the article depending on the randomly generated number
     const fetchItems = async () => {
-
      
         const data = await fetch(`https://raw.githubusercontent.com/bbc/news-coding-test-dataset/master/data/article-${articleTypes[randomNumber]}.json`);
 
+        //Collect Json
         const Article = await data.json();
-  
+
+        //Set content for randomly generated article
         setArticlesTitle(Article.title);
         setArticlesHeading(Article.body[0].model.text);
         setArticles(Article.body);
        
     }
+
+    //Call function
     fetchItems();
     
 },[]);
 
-const [articles, setArticles] = useState([]);
-const [articleTitle, setArticlesTitle] = useState('');
-const [articleHeading, setArticlesHeading] = useState('');
-
-
-
+  //Display the randomly generated article content
   return (
     <div>
         <h1>Generate a random Article</h1>
