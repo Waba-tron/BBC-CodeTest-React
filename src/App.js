@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from './components/nav/nav';
-import {Link} from 'react-router-dom';
+import Home from './home';
 import RandomArticle from './random-article';
 import Article from './article';
 import Rank from './rank';
@@ -27,6 +27,7 @@ function App() {
   );
 }
 
+/*
 const Home = () => (
   <div>
     <h1>Please click on the following Articles</h1>
@@ -41,5 +42,5 @@ const Home = () => (
         </Link>
   </div>
 )
-
+*/
 export default App;
