@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/BBC-CodeTest-React/static/css/main.f389eb40.chunk.css",
+    "main.js": "/BBC-CodeTest-React/static/js/main.25ed5a6b.chunk.js",
+    "main.js.map": "/BBC-CodeTest-React/static/js/main.25ed5a6b.chunk.js.map",
+    "runtime-main.js": "/BBC-CodeTest-React/static/js/runtime-main.34e25692.js",
+    "runtime-main.js.map": "/BBC-CodeTest-React/static/js/runtime-main.34e25692.js.map",
+    "static/js/2.9ef4b339.chunk.js": "/BBC-CodeTest-React/static/js/2.9ef4b339.chunk.js",
+    "static/js/2.9ef4b339.chunk.js.map": "/BBC-CodeTest-React/static/js/2.9ef4b339.chunk.js.map",
+    "index.html": "/BBC-CodeTest-React/index.html",
+    "precache-manifest.266e7275c6f44ea4c80e1a9f5d130e7d.js": "/BBC-CodeTest-React/precache-manifest.266e7275c6f44ea4c80e1a9f5d130e7d.js",
+    "service-worker.js": "/BBC-CodeTest-React/service-worker.js",
+    "static/css/main.f389eb40.chunk.css.map": "/BBC-CodeTest-React/static/css/main.f389eb40.chunk.css.map",
+    "static/js/2.9ef4b339.chunk.js.LICENSE.txt": "/BBC-CodeTest-React/static/js/2.9ef4b339.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.34e25692.js",
+    "static/js/2.9ef4b339.chunk.js",
+    "static/css/main.f389eb40.chunk.css",
+    "static/js/main.25ed5a6b.chunk.js"
+  ]
+}
